@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Roboto", sans-serif;
+  }
+
+  body {
+    @apply bg-white;
+  }
+}
+
+.scrollbar-thumb {
+  @apply rounded-full bg-brand;
+}
+
+.scrollbar-track {
+  @apply rounded-full bg-transparent;
+}
+
+.scroll-container {
+  @apply overflow-y-scroll;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  @apply scrollbar-thumb;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  @apply scrollbar-track;
+}

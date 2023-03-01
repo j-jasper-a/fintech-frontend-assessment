@@ -1,0 +1,37 @@
+{
+  "Monday": {
+    "home": 35,
+    "gas": 50,
+    "shops": 20
+  },
+  "Tuesday": {
+    "home": 75,
+    "gas": 15,
+    "shops": 65
+  },
+  "Wednesday": {
+    "home": 45,
+    "gas": 30,
+    "shops": 55
+  },
+  "Thursday": {
+    "home": 80,
+    "gas": 25,
+    "shops": 70
+  },
+  "Friday": {
+    "home": 65,
+    "gas": 40,
+    "shops": 30
+  },
+  "Saturday": {
+    "home": 20,
+    "gas": 60,
+    "shops": 85
+  },
+  "Sunday": {
+    "home": 50,
+    "gas": 10,
+    "shops": 75
+  }
+}
